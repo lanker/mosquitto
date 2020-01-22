@@ -383,7 +383,7 @@ static void print_usage(void)
 {
 	printf("mosquitto version %s\n\n", VERSION);
 	printf("mosquitto is an MQTT v3.1.1 broker.\n\n");
-	printf("Usage: mosquitto [-c config_file] [-d] [-h] [-p port]\n\n");
+	printf("Usage: mosquitto [-c config_file] [-d] [-h] [-p port] [-v]\n\n");
 	printf(" -c : specify the broker config file.\n");
 	printf(" -d : put the broker into the background after starting.\n");
 	printf(" -h : display this help.\n");
